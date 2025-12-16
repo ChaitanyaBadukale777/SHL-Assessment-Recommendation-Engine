@@ -1,0 +1,51 @@
+assessment_id,assessment_name,job_family,job_level,industry,language,test_type,remote_testing,adaptive_irt,duration_minutes,difficulty,skills_assessed
+SHL001,Account Manager Solution,Business,Manager,Sales,English,CPAB,Yes,Yes,60,Medium,client management negotiation communication
+SHL002,Graduate Cognitive Ability Test,General,Graduate,Any,English,C,Yes,Yes,45,Medium,logical reasoning numerical reasoning
+SHL003,IT Programmer Skills Test,Information Technology,Entry-Level,Technology,English,A,Yes,No,60,Hard,java python problem solving
+SHL004,Customer Service Personality Profile,Customer Service,Front Line Manager,Retail,English,P,Yes,No,30,Easy,empathy communication stress handling
+SHL005,Sales Aptitude Assessment,Sales,Entry-Level,Retail,English,A,Yes,No,40,Medium,persuasion negotiation reasoning
+SHL006,Clerical Accuracy Test,Clerical,Entry-Level,Banking/Finance,English,A,Yes,No,35,Easy,data accuracy attention to detail
+SHL007,Leadership Potential Questionnaire,Business,Manager,Any,English,P,Yes,No,45,Medium,leadership decision making
+SHL008,Graduate Behavioral Assessment,General,Graduate,Any,English,B,Yes,No,30,Easy,teamwork adaptability
+SHL009,Data Analyst Cognitive Test,Information Technology,Mid-Professional,Technology,English,C,Yes,Yes,50,Hard,analytical thinking data interpretation
+SHL010,Call Center Simulation Test,Contact Center,Entry-Level,Telecommunications,English,B,Yes,No,45,Medium,customer handling multitasking
+SHL011,Executive Reasoning Assessment,Business,Executive,Any,English,C,Yes,Yes,60,Hard,strategic thinking problem solving
+SHL012,Healthcare Situational Judgment Test,Safety,Front Line Manager,Healthcare,English,B,Yes,No,40,Medium,decision making ethics
+SHL013,Finance Numerical Ability Test,Business,Entry-Level,Banking/Finance,English,A,Yes,Yes,45,Hard,numerical analysis accuracy
+SHL014,IT Support Skills Test,Information Technology,Entry-Level,Technology,English,A,Yes,No,50,Medium,troubleshooting networking basics
+SHL015,Graduate IT Aptitude Test,Information Technology,Graduate,Technology,English,A,Yes,No,40,Medium,logical thinking programming basics
+SHL016,Manufacturing Safety Assessment,Safety,Front Line Manager,Manufacturing,English,B,Yes,No,35,Medium,safety awareness compliance
+SHL017,Managerial Judgment Test,Business,Manager,Any,English,B,Yes,No,45,Medium,decision making leadership
+SHL018,Customer Interaction Test,Customer Service,Entry-Level,Hospitality,English,B,Yes,No,30,Easy,communication service mindset
+SHL019,Advanced Java Developer Test,Information Technology,Mid-Professional,Technology,English,A,Yes,No,75,Hard,java spring data structures
+SHL020,Sales Manager Competency Test,Sales,Manager,Retail,English,P,Yes,No,50,Medium,leadership sales strategy
+SHL021,Graduate Problem Solving Test,General,Graduate,Any,English,C,Yes,Yes,40,Medium,logical reasoning pattern recognition
+SHL022,Insurance Claims Aptitude Test,Business,Entry-Level,Insurance,English,A,Yes,No,45,Medium,analysis accuracy judgment
+SHL023,Retail Supervisor Assessment,Sales,Front Line Manager,Retail,English,B,Yes,No,40,Medium,team management operations
+SHL024,Python Coding Assessment,Information Technology,Entry-Level,Technology,English,A,Yes,No,60,Hard,python coding logic
+SHL025,Executive Personality Inventory,Business,Executive,Any,English,P,Yes,No,45,Medium,leadership traits emotional intelligence
+SHL026,Graduate Communication Test,General,Graduate,Any,English,A,Yes,No,30,Easy,verbal ability comprehension
+SHL027,Oil & Gas Safety Test,Safety,Entry-Level,Oil & Gas,English,B,Yes,No,40,Medium,operational safety compliance
+SHL028,Mid-Level Manager Cognitive Test,Business,Mid-Professional,Any,English,C,Yes,Yes,50,Hard,problem solving decision making
+SHL029,Customer Retention Assessment,Customer Service,Manager,Telecommunications,English,B,Yes,No,45,Medium,customer strategy conflict handling
+SHL030,IT Graduate Entry Assessment,Information Technology,Graduate,Technology,English,C,Yes,Yes,45,Medium,aptitude logic
+SHL031,HR Situational Judgment Test,Business,Entry-Level,Any,English,B,Yes,No,35,Easy,ethics workplace judgment
+SHL032,Graduate Sales Potential Test,Sales,Graduate,Retail,English,A,Yes,No,40,Medium,persuasion communication
+SHL033,Digital Skills Assessment,Information Technology,Entry-Level,Technology,English,A,Yes,No,35,Easy,digital literacy tools
+SHL034,Leadership Simulation Test,Business,Manager,Any,English,B,Yes,No,60,Hard,decision leadership strategy
+SHL035,Customer Support Reasoning Test,Customer Service,Entry-Level,Any,English,C,Yes,Yes,40,Medium,problem solving reasoning
+SHL036,Graduate Employability Test,General,Graduate,Any,English,P,Yes,No,30,Easy,workplace readiness
+SHL037,Technical Analyst Assessment,Information Technology,Mid-Professional,Technology,English,A,Yes,No,55,Hard,analysis troubleshooting
+SHL038,Finance Manager Judgment Test,Business,Manager,Banking/Finance,English,B,Yes,No,50,Medium,financial decisions risk analysis
+SHL039,Sales Executive Aptitude Test,Sales,Entry-Level,Retail,English,A,Yes,No,45,Medium,negotiation persuasion
+SHL040,Graduate Logical Thinking Test,General,Graduate,Any,English,C,Yes,Yes,40,Medium,logical analysis
+SHL041,IT Architecture Reasoning Test,Information Technology,Executive,Technology,English,C,Yes,Yes,60,Hard,system design reasoning
+SHL042,Customer Experience Assessment,Customer Service,Mid-Professional,Hospitality,English,B,Yes,No,45,Medium,service quality empathy
+SHL043,Entry-Level Manager Potential Test,Business,Entry-Level,Any,English,P,Yes,No,40,Easy,leadership traits
+SHL044,Graduate Numerical Reasoning Test,General,Graduate,Any,English,C,Yes,Yes,35,Medium,numerical analysis
+SHL045,Telecom Operations Assessment,Information Technology,Front Line Manager,Telecommunications,English,B,Yes,No,50,Medium,operations management
+SHL046,Retail Analytics Aptitude Test,Sales,Mid-Professional,Retail,English,A,Yes,No,45,Medium,data interpretation
+SHL047,Graduate Workplace Behavior Test,General,Graduate,Any,English,B,Yes,No,30,Easy,professional behavior
+SHL048,Advanced Problem Solving Test,Business,Mid-Professional,Any,English,C,Yes,Yes,55,Hard,complex reasoning
+SHL049,Customer Success Manager Test,Customer Service,Manager,Technology,English,B,Yes,No,50,Medium,customer strategy leadership
+SHL050,IT Fundamentals Entry Test,Information Technology,Entry-Level,Technology,English,A,Yes,No,40,Easy,it basics troubleshooting
