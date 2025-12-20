@@ -1,26 +1,24 @@
-def recommend_rule_based(df, job_family, job_level, skills, top_n=5):
-    skills = [s.lower() for s in skills]
+# recommender/rule_based.py
 
+def recommend_rule_based(df, query, top_n=5):
+    """
+    Simple keyword-based baseline recommender.
+    This is used as a baseline before semantic (RAG) retrieval.
+    """
+
+    query_terms = query.lower().split()
     scores = []
 
     for _, row in df.iterrows():
-        score = 0
-
-        if job_family.lower() in row["job_family"].lower():
-            score += 3
-
-        if job_level.lower() in row["job_level"].lower():
-            score += 2
-
-        assessment_skills = row["skills_assessed"].lower().split()
-        skill_match = len(set(skills) & set(assessment_skills))
-        score += skill_match * 2
-
+        text = row["text"].lower()
+        score = sum(1 for term in query_terms if term in text)
         scores.append(score)
 
+    df = df.copy()
     df["score"] = scores
-    result = df.sort_values("score", ascending=False)
 
-    return result.head(top_n)[
-        ["assessment_name", "job_family", "job_level", "skills_assessed", "duration_minutes"]
+    results = df.sort_values("score", ascending=False).head(top_n)
+
+    return results[
+        ["assessment_name", "assessment_url"]
     ].to_dict(orient="records")

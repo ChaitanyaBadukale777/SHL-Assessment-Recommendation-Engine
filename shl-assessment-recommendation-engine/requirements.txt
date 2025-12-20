@@ -1,5 +1,7 @@
-pandas
-numpy
-scikit-learn
-fastapi
-uvicorn
+pandas>=1.5
+numpy>=1.23
+fastapi>=0.100
+uvicorn>=0.23
+pydantic>=1.10
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
