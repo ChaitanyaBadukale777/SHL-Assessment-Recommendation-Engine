@@ -1,21 +1,26 @@
 from fastapi import FastAPI
-from pydantic import BaseModel, Field
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+
 from recommender.data_loader import load_catalogue
-from recommender.rag_recommender import recommend_rag, build_index
+from recommender.rag_recommender import recommend_rag
 
 app = FastAPI(title="SHL Assessment Recommendation Engine")
 
-# Load catalogue once
+# 🔥 CORS FIX (THIS IS REQUIRED)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://127.0.0.1:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 df = load_catalogue()
 
-# Build FAISS index at startup (recommended)
-build_index(df)
-
-
 class RecommendRequest(BaseModel):
-    query: str = Field(..., description="Natural language query or job description")
-    top_k: int = Field(10, ge=5, le=10, description="Number of recommendations (5–10)")
-
+    query: str
+    top_k: int = 10
 
 @app.post("/recommend")
 def recommend(request: RecommendRequest):
